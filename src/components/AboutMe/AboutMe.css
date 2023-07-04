@@ -1,7 +1,29 @@
 
+
+.main {
+  height: 100vh;
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Header styling */
+
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+
 .scroll-bar {
   width: 30%;
-  background-color: aqua;
+  background-color: #cce2f0;
   overflow: auto;
   white-space: nowrap;
 }
@@ -19,5 +41,13 @@
 }
 
 .option:hover {
-  background-color: #777;
+  background-color: #b9c9d4;
+}
+
+/* Main Content Styling */
+
+.info-container {
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid blue; */
 }
