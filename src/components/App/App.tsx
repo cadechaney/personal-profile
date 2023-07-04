@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import AboutMe from '../AboutMe/AboutMe'
+
 
 function App() {
   return (
-   <p>
-    start of personal profile
-   </p>
+   <AboutMe />
   );
 }
 

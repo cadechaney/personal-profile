@@ -1,0 +1,23 @@
+
+.scroll-bar {
+  width: 30%;
+  background-color: aqua;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.option {
+  display: inline-block;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.option:hover {
+  background-color: #777;
+}
