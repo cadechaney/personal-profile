@@ -1,12 +1,10 @@
 
 
 .main {
-  height: 100vh;
-  /* border: solid 2px red; */
+  height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 /* Header styling */
@@ -18,6 +16,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 1%;
   /* border: 2px solid green; */
 }
 
@@ -49,5 +48,28 @@ header {
 .info-container {
   height: 90vh;
   width: 100%;
+  margin-top: 4%;
   /* border: 2px solid blue; */
+}
+
+.info-card-1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.teaching-video {
+  height: 80vh;
+  border: 2px solid #6b7d83;
+}
+
+.details-1 {
+  width: 30%;
+  text-indent: 16%;
+  line-height: 2;
+}
+
+h3 {
+  font-size: larger;
 }
