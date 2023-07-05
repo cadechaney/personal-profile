@@ -52,14 +52,16 @@ header {
   /* border: 2px solid blue; */
 }
 
-.info-card-1 {
+.info-card-1,
+.info-card-2 {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.teaching-video {
+.teaching-video,
+.sparring-video {
   height: 80vh;
   border: 2px solid #6b7d83;
 }
@@ -72,4 +74,10 @@ header {
 
 h3 {
   font-size: larger;
+}
+
+.details-2 {
+  width: 30%;
+  text-indent: 8%;
+  line-height: 2;
 }

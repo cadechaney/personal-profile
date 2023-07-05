@@ -3,6 +3,7 @@ import './AboutMe.css'
 
 
 const teachingVideo = require('../../assets/teachingVideo.gif')
+const sparringVideo = require('../../assets/sparring.gif')
 
 function AboutMe() {
 
@@ -29,6 +30,18 @@ function AboutMe() {
               introduce and teach these aspects, especially to the younger generations so they can grow confidence, be proud of their achievements, and learn respect for others.
             </h3>
           </article>
+        </div>
+        <div className='info-card-2'>
+          <article className='details-2'>
+            <h3>
+              To the average person fighting may seem anger driven, but in reality with a good fighter every move is calm and calcalculated.
+              Learning these techniques with sparring partners has built some of the best relationships in my life.
+            </h3>
+          </article>
+          <div>
+            <img className='sparring-video' src={sparringVideo}></img>
+            <p>Sparring with a great friend of mine, Nick in Colorado Springs</p>
+          </div>
         </div>
       </section>
     </div>
