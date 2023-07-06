@@ -1,24 +1,12 @@
 import './AboutMe.css'
-// import teachingVideo from '../../assets/teachingVideo'
-
 
 const teachingVideo = require('../../assets/teachingVideo.gif')
 const sparringVideo = require('../../assets/sparring.gif')
 
 function AboutMe() {
 
-
   return (
     <div className='main'>
-      <header>
-        <h1>About me</h1>
-        <section className='scroll-bar'>
-          <p className='option'>Contact Me</p>
-          <p className='option'>Resume</p>
-          <p className='option'>About this site</p>
-          <p className='option'>Portfolio</p>
-        </section>
-      </header>
       <section className='info-container'>
         <div className='info-card-1'>
           <img className='teaching-video' src={teachingVideo}></img>

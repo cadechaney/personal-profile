@@ -1,55 +1,12 @@
 
 
-.main {
+.info-container {
+  width: 100%;
+  margin-top: 4%;
   height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-/* Header styling */
-
-header {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1%;
-  /* border: 2px solid green; */
-}
-
-.scroll-bar {
-  width: 30%;
-  background-color: #cce2f0;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.scroll-bar::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.option {
-  display: inline-block;
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.option:hover {
-  background-color: #b9c9d4;
-}
-
-/* Main Content Styling */
-
-.info-container {
-  height: 90vh;
-  width: 100%;
-  margin-top: 4%;
-  /* border: 2px solid blue; */
 }
 
 .info-card-1,
@@ -81,3 +38,4 @@ h3 {
   text-indent: 8%;
   line-height: 2;
 }
+
