@@ -1,14 +1,9 @@
 import './AboutMe.css'
-// import teachingVideo from '../../assets/teachingVideo'
-
 
 const teachingVideo = require('../../assets/teachingVideo.gif')
 const sparringVideo = require('../../assets/sparring.gif')
-const youngSiblings = require('../../assets/youngSiblings.jpg')
-const gymSiblings = require('../../assets/gymSiblings.jpg')
 
 function AboutMe() {
-
 
   return (
     <div className='main'>
