@@ -4,6 +4,8 @@ import './AboutMe.css'
 
 const teachingVideo = require('../../assets/teachingVideo.gif')
 const sparringVideo = require('../../assets/sparring.gif')
+const youngSiblings = require('../../assets/youngSiblings.jpg')
+const gymSiblings = require('../../assets/gymSiblings.jpg')
 
 function AboutMe() {
 
