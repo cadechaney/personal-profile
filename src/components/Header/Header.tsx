@@ -1,10 +1,15 @@
 import './Header.css'
+import React from 'react'
 
-function Header() {
+interface HeaderProps {
+  name: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ name }) => {
 
   return (
       <header>
-        <h1>About me</h1>
+        <h1>{name}</h1>
         <section className='scroll-bar'>
           <p className='option'>Contact Me</p>
           <p className='option'>Resume</p>

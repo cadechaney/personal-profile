@@ -1,11 +1,18 @@
 import './AboutMe.css'
+import Header from '../Header/Header'
 
 const teachingVideo = require('../../assets/teachingVideo.gif')
 const sparringVideo = require('../../assets/sparring.gif')
 
-function AboutMe() {
+interface AboutMeProps {
+  aboutMeTitle: string;
+}
+
+const AboutMe: React.FC<AboutMeProps> = ({ aboutMeTitle }) => {
 
   return (
+  <>
+    <Header name={aboutMeTitle} />
     <div className='main'>
       <section className='info-container'>
         <div className='info-card-1'>
@@ -33,6 +40,7 @@ function AboutMe() {
         </div>
       </section>
     </div>
+  </>
   )
 }
 
