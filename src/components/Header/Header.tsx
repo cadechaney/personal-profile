@@ -12,11 +12,11 @@ const Header: React.FC<HeaderProps> = ({ name }) => {
       <header>
         <h1>{name}</h1>
         <section className='scroll-bar'>
-          <Link to="/contactMe"> 
+          <Link to="/contactMe" className='link'> 
             <p className='option'>Contact Me</p> 
           </Link>
           <p className='option'>Resume</p>
-          <Link to="/"> 
+          <Link to="/" className='link'> 
             <p className='option'>About Me</p> 
           </Link>
           <p className='option'>Portfolio</p>
