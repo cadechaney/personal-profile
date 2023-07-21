@@ -1,13 +1,13 @@
 
 
 .resume-container {
-  border: solid 2px red;
-  height: 150vh;
+  height: 160vh;
   display: flex;
   justify-content: center;
-
 }
 
 .resume-image {
+  margin-top: 2%;
   height: 150vh;
+  border: 2px solid #6b7d83;
 }
