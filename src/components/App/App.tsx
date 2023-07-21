@@ -9,6 +9,8 @@ import Resume from '../Resume/Resume'
 import Portfolio from '../Portfolio/Portfolio';
 
 const resumeImage = require('../../assets/resumeImage.png')
+const disneyGif = require('../../assets/disneyApp.gif')
+const flightLogGif = require('../../assets/flightLog.gif')
 
 function App() {
 
