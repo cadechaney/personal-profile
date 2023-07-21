@@ -6,6 +6,7 @@ import Header from '../Header/Header'
 import AboutMe from '../AboutMe/AboutMe'
 import ContactMe from '../ContactMe/ContactMe'
 import Resume from '../Resume/Resume'
+import Portfolio from '../Portfolio/Portfolio';
 
 const resumeImage = require('../../assets/resumeImage.png')
 
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path='/contactMe'>
           <ContactMe contactMeTitle={contactMeTitle}/>
+        </Route>
+        <Route path='/portfolio'>
+          <Portfolio portfolioTitle={portfolioTitle} />
         </Route>
       </Switch>
     </>
