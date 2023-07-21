@@ -1,0 +1,29 @@
+
+.portfolio-container {
+  width: 100%;
+  margin-top: 4%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-card-1,
+.portfolio-card-2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.details-section-1 {
+  width: 30%;
+  text-indent: 16%;
+  line-height: 2;
+}
+
+.details-section-2 {
+  width: 30%;
+  text-indent: 8%;
+  line-height: 2;
+}
