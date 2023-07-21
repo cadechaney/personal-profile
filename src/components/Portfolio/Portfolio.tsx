@@ -7,9 +7,10 @@ interface PortfolioProps {
   portfolioTitle: string;
   disneyGif: string;
   flightLogGif: string;
+  matrixGif: string;
 }
 
-const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flightLogGif }) => {
+const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flightLogGif, matrixGif }) => {
   
   return (
     <>
