@@ -32,7 +32,10 @@ function App() {
           <ContactMe contactMeTitle={contactMeTitle}/>
         </Route>
         <Route path='/portfolio'>
-          <Portfolio portfolioTitle={portfolioTitle} />
+          <Portfolio 
+            portfolioTitle={portfolioTitle} 
+            disneyGif={disneyGif} 
+            flightLogGif={flightLogGif} />
         </Route>
       </Switch>
     </>
