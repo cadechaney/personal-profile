@@ -39,15 +39,32 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
               - With a Full Stack team having Front End building with React Native and Back End using Python, we created an app that pilots can use to log their flights 
               on their mobile device
             </h6>
-
           </article>
         </div>
         <div className='portfolio-card-2'>
-          <article className='details-section-2'>
-            <h1>Disney Character Discovery</h1>
-            <h3>
-              
-            </h3>
+        <article className='details-section-2'>
+            <h1>Disney Characters Discovery</h1>
+            <h4>
+            {'\u25AA'}Solo Project | 45 Hours | GitHub Front End Repo | Deployed App
+            </h4>
+            <h5>
+            {'\u25AA'}Front End Technology - React
+            </h5>
+            <h5>
+              {'\u25AA'}Project Purpose:
+            </h5>
+            <h6>
+              - Problem: User is someone who is excited to learn about and discover new Disney characters
+            </h6>
+            <h6>
+              - Answer: User now has a website that is responsive on any device to discover, favorite, and learn new characters
+            </h6>
+            <h5>
+              {'\u25AA'}Description:
+            </h5>
+            <h6>
+              As a solo project I created an app that takes in an api, and displays the data into character cards that the user can favorite/save
+            </h6>
           </article>
           <div>
             {/* <img className='sparring-video' src={sparringVideo}></img> */}
