@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path='/resume'>
+        <Route exact path='/'>
           <Resume resumeTitle={resumeTitle} resumeImage={resumeImage}/>
         </Route>
         <Route path='/aboutMe'>

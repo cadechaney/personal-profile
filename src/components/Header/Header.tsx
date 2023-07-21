@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ name }) => {
           <Link to="/contactMe" className='link'> 
             <p className='option'>Contact Me</p> 
           </Link>
-          <Link to="/resume" className='link'>
+          <Link to="/" className='link'>
             <p className='option'>Resume</p>
           </Link>
           <Link to="/aboutMe" className='link'> 
