@@ -7,6 +7,8 @@ import AboutMe from '../AboutMe/AboutMe'
 import ContactMe from '../ContactMe/ContactMe'
 import Resume from '../Resume/Resume'
 
+const resumeImage = require('../../assets/resumeImage.png')
+
 function App() {
 
   const [aboutMeTitle] = useState('About Me')
