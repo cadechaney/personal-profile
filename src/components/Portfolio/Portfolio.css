@@ -19,7 +19,7 @@
 }
 
 .details-section-1 {
-  border: solid 2px red;
+  border: solid 2px black;
   background-color: aliceblue;
   width: 60%;
   text-indent: 16%;
@@ -28,7 +28,7 @@
 }
 
 .details-section-2 {
-  border: solid 2px red;
+  border: solid 2px black;
   background-color: aliceblue;
   width: 50%;
   text-indent: 8%;
@@ -48,7 +48,7 @@
 
 .flight-log-gif,
 .disney-gif {
-  border: 3px solid #6b7d83;
+  border: solid 2px black;
 }
 
 .flight-log-gif {
