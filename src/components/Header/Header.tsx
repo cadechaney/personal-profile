@@ -22,7 +22,9 @@ const Header: React.FC<HeaderProps> = ({ name, style }) => {
           <Link to="/aboutMe" className='link'> 
             <p className='option'>About Me</p> 
           </Link>
-          <p className='option'>Portfolio</p>
+          <Link to='/portfolio' className='link'>
+            <p className='option'>Portfolio</p>
+          </Link>
         </section>
       </header>
   )
