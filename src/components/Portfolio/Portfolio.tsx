@@ -14,7 +14,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
   
   return (
     <div style={{ backgroundImage: `url(${matrixGif})`}}>
-      <Header name={portfolioTitle}/>
+      <Header name={portfolioTitle} style={{ color: 'white'}}/>
       <section className='portfolio-container'>
         <div className='portfolio-card-1'>
           <article className='details-section-1'>

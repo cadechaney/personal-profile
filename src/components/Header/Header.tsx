@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'
 
 interface HeaderProps {
   name: string;
+  style: object;
 }
 
-const Header: React.FC<HeaderProps> = ({ name }) => {
+const Header: React.FC<HeaderProps> = ({ name, style }) => {
 
   return (
       <header>
-        <h1>{name}</h1>
+        <h1 style={style}>{name}</h1>
         <section className='scroll-bar'>
           <Link to="/contactMe" className='link'> 
             <p className='option'>Contact Me</p> 

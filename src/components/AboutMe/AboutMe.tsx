@@ -12,7 +12,7 @@ const AboutMe: React.FC<AboutMeProps> = ({ aboutMeTitle }) => {
 
   return (
   <>
-    <Header name={aboutMeTitle} />
+    <Header name={aboutMeTitle} style={{ color: 'black'}}/>
     <div className='main'>
       <section className='info-container'>
         <div className='info-card-1'>

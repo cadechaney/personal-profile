@@ -10,7 +10,7 @@ interface ContactMeProps {
 const ContactMe: React.FC<ContactMeProps> = ({ contactMeTitle }) => {
   return (
     <div className='contact-me-container' style={{ backgroundImage: `url(${denverBackground})`}}>
-      <Header name={contactMeTitle} />
+      <Header name={contactMeTitle} style={{ color: 'black'}}/>
       <div className='contact-info'>
         <h2 className='info-detail'>Email: cadechaney@live.com</h2>
         <h2 className='info-detail'>Phone: (720)490-8630</h2>

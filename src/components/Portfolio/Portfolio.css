@@ -20,6 +20,7 @@
 
 .details-section-1 {
   border: solid 2px red;
+  background-color: aliceblue;
   width: 60%;
   text-indent: 16%;
   line-height: 2;
@@ -28,6 +29,7 @@
 
 .details-section-2 {
   border: solid 2px red;
+  background-color: aliceblue;
   width: 50%;
   text-indent: 8%;
   line-height: 2;
