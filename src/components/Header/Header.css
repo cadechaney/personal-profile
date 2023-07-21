@@ -32,3 +32,8 @@ header {
 .option:hover {
   background-color: #b9c9d4;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+}

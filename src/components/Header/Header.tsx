@@ -1,14 +1,26 @@
 import './Header.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Header() {
+interface HeaderProps {
+  name: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ name }) => {
 
   return (
       <header>
-        <h1>About me</h1>
+        <h1>{name}</h1>
         <section className='scroll-bar'>
-          <p className='option'>Contact Me</p>
-          <p className='option'>Resume</p>
-          <p className='option'>About this site</p>
+          <Link to="/contactMe" className='link'> 
+            <p className='option'>Contact Me</p> 
+          </Link>
+          <Link to="/resume" className='link'>
+            <p className='option'>Resume</p>
+          </Link>
+          <Link to="/aboutMe" className='link'> 
+            <p className='option'>About Me</p> 
+          </Link>
           <p className='option'>Portfolio</p>
         </section>
       </header>
