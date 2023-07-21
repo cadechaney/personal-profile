@@ -37,3 +37,28 @@
 #inPerson {
   width: 80%;
 }
+
+@media screen and (max-width: 810px) {
+  .contact-info {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .contact-info {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .contact-info {
+    height: 45%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .contact-info {
+    width: 95%;
+  }
+}
