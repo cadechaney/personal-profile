@@ -5,6 +5,7 @@ import './App.css';
 import Header from '../Header/Header'
 import AboutMe from '../AboutMe/AboutMe'
 import ContactMe from '../ContactMe/ContactMe'
+import Resume from '../Resume/Resume'
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path='/contactMe'>
           <ContactMe contactMeTitle={contactMeTitle}/>
+        </Route>
+        <Route path='/resume'>
+          <Resume />
         </Route>
       </Switch>
     </>
