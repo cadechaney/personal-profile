@@ -15,6 +15,7 @@ function App() {
   const [aboutMeTitle] = useState('About Me')
   const [contactMeTitle] = useState('Contact Me')
   const [resumeTitle] = useState('My Resume')
+  const [portfolioTitle] = useState('My Portfolio')
 
   return (
     <>
