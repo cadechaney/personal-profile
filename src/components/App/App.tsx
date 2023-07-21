@@ -18,14 +18,14 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/resume'>
+          <Resume resumeTitle={resumeTitle} resumeImage={resumeImage}/>
+        </Route>
+        <Route path='/aboutMe'>
           <AboutMe aboutMeTitle={aboutMeTitle}/>
         </Route>
         <Route path='/contactMe'>
           <ContactMe contactMeTitle={contactMeTitle}/>
-        </Route>
-        <Route path='/resume'>
-          <Resume resumeTitle={resumeTitle} resumeImage={resumeImage}/>
         </Route>
       </Switch>
     </>
