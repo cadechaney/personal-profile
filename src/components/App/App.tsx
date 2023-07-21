@@ -11,6 +11,7 @@ function App() {
 
   const [aboutMeTitle] = useState('About Me')
   const [contactMeTitle] = useState('Contact Me')
+  const [resumeTitle] = useState('My Resume')
 
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
           <ContactMe contactMeTitle={contactMeTitle}/>
         </Route>
         <Route path='/resume'>
-          <Resume />
+          <Resume resumeTitle={resumeTitle}/>
         </Route>
       </Switch>
     </>
