@@ -12,8 +12,9 @@ const Resume: React.FC<ResumeProps> = ({ resumeTitle, resumeImage }) => {
   return (
     <>
       <Header name={resumeTitle}/>
-      <img src={resumeImage} className='resume-image' alt='my resume'></img>
-    
+      <div className='resume-container'>
+        <img src={resumeImage} className='resume-image' alt='my resume'></img>  
+      </div>
     </>
   )
 }
