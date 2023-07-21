@@ -4,9 +4,10 @@ import Header from '../Header/Header';
 
 interface ResumeProps {
   resumeTitle: string;
+  resumeImage: string;
 }
 
-const Resume: React.FC<ResumeProps> = ({ resumeTitle }) => {
+const Resume: React.FC<ResumeProps> = ({ resumeTitle, resumeImage }) => {
 
   return (
     <>
