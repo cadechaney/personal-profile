@@ -1,29 +1,45 @@
 
 .portfolio-container {
   width: 100%;
-  margin-top: 4%;
-  height: 200vh;
+  /* margin-top: 4%; */
+  height: 170vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .portfolio-card-1,
 .portfolio-card-2 {
-  height: 100%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .details-section-1 {
-  width: 30%;
+  width: 60%;
   text-indent: 16%;
   line-height: 2;
+  font-size: larger;
 }
 
 .details-section-2 {
-  width: 30%;
+  width: 50%;
   text-indent: 8%;
   line-height: 2;
+  font-size: larger;
+}
+
+.flight-log-gif,
+.disney-gif {
+  border: 3px solid #6b7d83;
+}
+
+.flight-log-gif {
+  height: 80%;
+}
+
+.disney-gif {
+  height: 50%;
 }

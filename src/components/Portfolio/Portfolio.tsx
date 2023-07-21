@@ -5,16 +5,17 @@ import Header from '../Header/Header'
 
 interface PortfolioProps {
   portfolioTitle: string;
+  disneyGif: string;
+  flightLogGif: string;
 }
 
-const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
+const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flightLogGif }) => {
   
   return (
     <>
       <Header name={portfolioTitle}/>
       <section className='portfolio-container'>
         <div className='portfolio-card-1'>
-          {/* <img className='teaching-video' src={teachingVideo}></img> */}
           <article className='details-section-1'>
             <h1>Flight Log</h1>
             <h4>
@@ -40,8 +41,10 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
               on their mobile device
             </h6>
           </article>
+          <img className='flight-log-gif' src={flightLogGif}></img>
         </div>
         <div className='portfolio-card-2'>
+        <img className='disney-gif' src={disneyGif}></img>
         <article className='details-section-2'>
             <h1>Disney Characters Discovery</h1>
             <h4>
@@ -66,9 +69,6 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
               As a solo project I created an app that takes in an api, and displays the data into character cards that the user can favorite/save
             </h6>
           </article>
-          <div>
-            {/* <img className='sparring-video' src={sparringVideo}></img> */}
-          </div>
         </div>
       </section>
     </>
