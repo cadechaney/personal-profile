@@ -11,6 +11,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
   
   return (
     <>
+      <Header name={portfolioTitle}/>
       <p>portfolio</p>
     </>
   )
