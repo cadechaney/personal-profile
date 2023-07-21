@@ -36,7 +36,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
             <h5>
               {'\u25AA'}Description:
             </h5>
-            <h6>
+            <h6 className='description-area'>
               - With a Full Stack team having Front End building with React Native and Back End using Python, we created an app that pilots can use to log their flights 
               on their mobile device
             </h6>
@@ -65,7 +65,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
             <h5>
               {'\u25AA'}Description:
             </h5>
-            <h6>
+            <h6 className='description-area'>
               As a solo project I created an app that takes in an api, and displays the data into character cards that the user can favorite/save
             </h6>
           </article>

@@ -31,6 +31,12 @@
   font-size: larger;
 }
 
+.description-area {
+  width: 50%;
+  margin-left: 20%;
+}
+
+
 .flight-log-gif,
 .disney-gif {
   border: 3px solid #6b7d83;
