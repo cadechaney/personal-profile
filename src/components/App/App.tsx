@@ -11,6 +11,7 @@ import Portfolio from '../Portfolio/Portfolio';
 const resumeImage = require('../../assets/resumeImage.png')
 const disneyGif = require('../../assets/disneyApp.gif')
 const flightLogGif = require('../../assets/flightLog.gif')
+const matrixGif = require('../../assets/matrix-code.gif')
 
 function App() {
 
@@ -35,7 +36,9 @@ function App() {
           <Portfolio 
             portfolioTitle={portfolioTitle} 
             disneyGif={disneyGif} 
-            flightLogGif={flightLogGif} />
+            flightLogGif={flightLogGif} 
+            matrixGif={matrixGif}
+            />
         </Route>
       </Switch>
     </>
