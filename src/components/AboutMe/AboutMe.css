@@ -39,3 +39,49 @@ h3 {
   line-height: 2;
 }
 
+@media screen and (max-width: 875px) {
+  h3 {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .info-container {
+    margin-top: 0%;
+    height: 250vh;
+  }
+
+  p {
+    display: none;
+  }
+
+  .info-card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .info-card-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  .teaching-video,
+  .sparring-video {
+    height: 65vh;
+  }
+
+  .details-1,
+  .details-2 {
+    height: 30vh;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  h3 {
+    font-size: medium;
+  }
+}
