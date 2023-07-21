@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Route, Switch, Redirect } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import Header from '../Header/Header'
 import AboutMe from '../AboutMe/AboutMe'
