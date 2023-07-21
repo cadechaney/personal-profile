@@ -12,17 +12,19 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
   return (
     <>
       <Header name={portfolioTitle}/>
-      <section className='info-container'>
-        <div className='info-card-1'>
+      <section className='portfolio-container'>
+        <div className='portfolio-card-1'>
           {/* <img className='teaching-video' src={teachingVideo}></img> */}
-          <article className='details-1'>
+          <article className='details-section-1'>
+            <h1>Flight Log</h1>
             <h3>
               
             </h3>
           </article>
         </div>
-        <div className='info-card-2'>
-          <article className='details-2'>
+        <div className='portfolio-card-2'>
+          <article className='details-section-2'>
+            <h1>Disney Character Discovery</h1>
             <h3>
             </h3>
           </article>
