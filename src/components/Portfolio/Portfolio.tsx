@@ -19,7 +19,8 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
           <article className='details-section-1'>
             <h1>Flight Log</h1>
             <h4>
-            {'\u25AA'}Full Stack Group Project | 75 Hours | GitHub Front End Repo | Deployed App
+            {'\u25AA'}Full Stack Group Project | 75 Hours | <a href="https://github.com/cadechaney/flight-log-ui" className='hyperlink'>GitHub Front End Repo</a> | 
+            <a href="https://flight-log-six.vercel.app/" className='hyperlink'>Deployed App</a>
             </h4>
             <h5>
             {'\u25AA'}Front End Technology - React Native
@@ -48,7 +49,8 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
         <article className='details-section-2'>
             <h1>Disney Characters Discovery</h1>
             <h4>
-            {'\u25AA'}Solo Project | 45 Hours | GitHub Front End Repo | Deployed App
+            {'\u25AA'}Solo Project | 45 Hours | <a href="https://github.com/cadechaney/Disney" className='hyperlink'>GitHub Front End Repo</a> | 
+            <a href="https://disney-henna.vercel.app/" className='hyperlink'>Deployed App</a>
             </h4>
             <h5>
             {'\u25AA'}Front End Technology - React

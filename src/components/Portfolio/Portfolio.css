@@ -58,3 +58,12 @@
 .disney-gif {
   height: 50%;
 }
+
+.hyperlink {
+  text-decoration: none;
+  color: black;
+}
+
+.hyperlink:hover {
+  color: blue;
+}
