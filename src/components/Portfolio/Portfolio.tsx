@@ -27,10 +27,10 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
             <h5>
               {'\u25AA'}Project Purpose:
             </h5>
-            <h6>
+            <h6 className='problem-answer'>
               - Problem: User is a pilot that needs an efficient and easy way to log flight information
             </h6>
-            <h6>
+            <h6 className='problem-answer'>
               - Answer: User now has a mobile application they can have on their phone to log flight info easily and reliably
             </h6>
             <h5>
@@ -56,10 +56,10 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
             <h5>
               {'\u25AA'}Project Purpose:
             </h5>
-            <h6>
+            <h6 className='problem-answer'>
               - Problem: User is someone who is excited to learn about and discover new Disney characters
             </h6>
-            <h6>
+            <h6 className='problem-answer'>
               - Answer: User now has a website that is responsive on any device to discover, favorite, and learn new characters
             </h6>
             <h5>
