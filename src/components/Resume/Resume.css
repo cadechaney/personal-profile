@@ -1,0 +1,13 @@
+
+
+.resume-container {
+  border: solid 2px red;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.resume-image {
+  height: 150vh;
+}
