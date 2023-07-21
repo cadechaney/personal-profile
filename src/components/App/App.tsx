@@ -25,7 +25,7 @@ function App() {
           <ContactMe contactMeTitle={contactMeTitle}/>
         </Route>
         <Route path='/resume'>
-          <Resume resumeTitle={resumeTitle}/>
+          <Resume resumeTitle={resumeTitle} resumeImage={resumeImage}/>
         </Route>
       </Switch>
     </>
