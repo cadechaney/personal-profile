@@ -26,6 +26,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle }) => {
           <article className='details-section-2'>
             <h1>Disney Character Discovery</h1>
             <h3>
+              
             </h3>
           </article>
           <div>
