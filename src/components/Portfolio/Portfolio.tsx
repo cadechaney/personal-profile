@@ -13,9 +13,8 @@ interface PortfolioProps {
 const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flightLogGif, matrixGif }) => {
   
   return (
-    <div style={{ backgroundImage: `url(${matrixGif})`}}>
+    <div className='portfolio-container' style={{ backgroundImage: `url(${matrixGif})`}}>
       <Header name={portfolioTitle} style={{ color: 'white'}}/>
-      <section className='portfolio-container'>
         <div className='portfolio-card-1'>
           <article className='details-section-1'>
             <h1>Flight Log</h1>
@@ -71,7 +70,6 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioTitle, disneyGif, flight
             </h6>
           </article>
         </div>
-      </section>
     </div>
   )
 }
