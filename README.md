@@ -1,10 +1,12 @@
 # Cade Chaney's Personal Profile Website
 
-## Technologies
+## Technologies:
 
 1. React
 2. Router
 3. TypeScript
+
+## Hours to Complete: roughly 12
    
 ## Preview of Site
 
