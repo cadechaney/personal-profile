@@ -11,3 +11,46 @@
   height: 150vh;
   border: 2px solid #6b7d83;
 }
+
+@media screen and (max-width: 910px) {
+  .resume-container {
+    height: 140vh;
+  }
+
+  .resume-image {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .resume-container {
+    height: 120vh;
+  }
+
+  .resume-image {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .resume-container {
+    height: 100vh;
+  }
+  
+  .resume-image {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .resume-image {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resume-image {
+    height: 65vh;
+  }
+}
+

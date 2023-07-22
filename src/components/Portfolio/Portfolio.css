@@ -1,7 +1,6 @@
 
 .portfolio-container {
   width: 100%;
-  /* margin-top: 4%; */
   height: 170vh;
   display: flex;
   flex-direction: column;
@@ -66,4 +65,141 @@
 
 .hyperlink:hover {
   color: blue;
+}
+
+@media screen and (max-width: 1375px) {
+  .details-section-1,
+  .details-section-2 {
+    font-size: large;
+  }
+  .problem-answer {
+    margin-left: 5%;
+  }
+
+  .description-area {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .portfolio-card-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  .portfolio-container {
+    height: 220vh;
+  }
+
+  .disney-gif {
+    height: 45%;
+  }
+
+  .details-section-2 {
+    width: 60%;
+  }
+
+  .details-section-1 {
+    text-indent: 10%;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+
+  .portfolio-card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .flight-log-gif {
+    height: 60%;
+  }
+
+  .portfolio-container {
+    height: 255vh;
+  }
+
+  .details-section-1,
+  .details-section-2 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .details-section-1 {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .details-section-1 {
+    text-indent: 2%;
+  }
+
+  .details-section-2 {
+    text-indent: 2%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .flight-log-gif {
+    height: 50%;
+  }
+
+  .disney-gif {
+    height: 40%;
+  }
+
+  .details-section-1,
+  .details-section-2 {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .details-section-1,
+  .details-section-2 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .disney-gif {
+    width: 80%;
+  }
+
+  .details-section-1,
+  .details-section-2 {
+    font-size: small;
+  }
+
+  .details-section-1,
+  .details-section-2 {
+    text-indent: 0%;
+  }
+
+  .portfolio-card-1 {
+    height: 50%;
+  }
+
+  .portfolio-container {
+    height: 200vh;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .details-section-1,
+  .details-section-2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .details-section-1,
+  .details-section-2 {
+    font-size: x-small;
+  }
 }
