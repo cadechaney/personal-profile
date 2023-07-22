@@ -1,6 +1,3 @@
-
-https://github.com/cadechaney/personal-profile/assets/121843832/7b0561d0-9195-48a3-98a4-f15914aad8c5
-
 # Cade Chaney's Personal Profile Website
 
 ## Technologies
