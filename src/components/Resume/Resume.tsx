@@ -10,12 +10,12 @@ interface ResumeProps {
 const Resume: React.FC<ResumeProps> = ({ resumeTitle, resumeImage }) => {
 
   return (
-    <>
+    <div className='resume-background'>
       <Header name={resumeTitle} style={{ color: 'black'}}/>
       <div className='resume-container'>
         <img src={resumeImage} className='resume-image' alt='my resume'></img>  
       </div>
-    </>
+    </div>
   )
 }
 
